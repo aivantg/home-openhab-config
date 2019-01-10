@@ -2,12 +2,12 @@ rule "Light_Kitchen_One ON"
 when
   Item Presence_Mobile_Aivant changed from OFF to ON
 then
-  sendBroadcastNotification("Aivant Arrived At Home")
+  sendNotification("aivantgoyal@gmail.com", "Aivant Arrived At Home")
 end
 
 rule "Light_Kitchen_One OFF"
 when
   Item Presence_Mobile_Aivant changed from ON to OFF
 then
-  sendBroadcastNotification("Aivant Left Home")
+  sendNotification("aivantgoyal@gmail.com", "Aivant Left Home")
 end
