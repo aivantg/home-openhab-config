@@ -7,5 +7,8 @@ Group Kitchen (Ground_Floor)
 
 Group Lights (House)
 
-Group:Switch:OR(ON,OFF) Kitchen_Lights (Kitchen, Lights)
-Group:Number Kitchen_Lights (Kitchen, Lights)
+Group KitchenLights (Kitchen, Lights)
+
+Group:Dimmer "Kitchen Lights Brightness (KitchenLights)
+Group:Switch:OR(ON,OFF) "Kitchen Lights" (KitchenLights)
+Group:Number:SUM "Kitchen Lights Summary (KitchenLights)
