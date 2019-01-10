@@ -1,7 +1,7 @@
 sitemap default label="Basic Sitemap"
 {
 	Frame label="Ground Floor" icon="groundfloor" {
-		Switch item="GroundFloorLights icon="light"
+		Switch item="GroundFloorLights" icon="light"
 	}
 
 	Frame label="Kitchen" icon="kitchen" {
