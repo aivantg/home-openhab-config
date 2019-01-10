@@ -1,20 +1,27 @@
 sitemap default label="Basic Sitemap"
 {
 
-	Frame label="Kitchen" icon="kitchen" {
-		Group item=KitchenLights label="Individual Kitchen Lights" icon="light"
+	Frame label="Kitchen" {
+		Group item=KitchenLightBrightness label="Individual Kitchen Lights" icon="kitchen"
 
-		Switch item=KitchenLights icon="light"
-		Slider item=KitchenLights icon="light"
+		Switch item=KitchenLightSwitch icon="light"
+		Slider item=KitchenLightBrightness icon="light"
 	}
 
-	Frame label="Office" icon="office" {
-		Group item=OfficeLights label="Individual Office Lights" icon="light"
+	Frame label="Living Room" {
+		Group item=LivingRoomLightBrightness label="Individual Living Room Lights" icon="light"
+
+		Switch item=LivingRoomLightSwitch icon="light"
+		Slider item=LivingRoomLightBrightness icon="light"
+	}
+
+	Frame label="Office" {
+		Group item=OfficeLights label="Individual Office Lights" icon="office"
 		Switch item=OfficeLights icon="light"
 	}
 
-	Frame label="Ground Floor" icon="groundfloor" {
-		Switch item=GroundFloorLights label="Ground Floor Lights" icon="light"
+	Frame label="Ground Floor"  {
+		Switch item=GroundFloorLights label="Ground Floor Lights" icon="groundfloor"
 	}
 
 
