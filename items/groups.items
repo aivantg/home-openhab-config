@@ -1,0 +1,11 @@
+Group House
+
+Group Ground_Floor (House)
+Group Upstairs (House)
+
+Group Kitchen (Ground_Floor)
+
+Group Lights (House)
+
+Group:Switch:OR(ON,OFF) Kitchen_Lights (Kitchen, Lights)
+Group:Number Kitchen_Lights (Kitchen, Lights)

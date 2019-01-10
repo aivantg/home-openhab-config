@@ -1,0 +1,1 @@
+Switch Presence_Mobile_Aivant "Aivant's iPhone" <network> { channel="network:pingdevice:66a655e1:online" }

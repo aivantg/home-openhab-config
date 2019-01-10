@@ -1,0 +1,5 @@
+sitemap default label="Basic Sitemap"
+{ 
+	Switch item=Presence_Mobile_Aivant label="Aivant's iPhone"
+	Switch item=Plug_Office_Lamp label="Office Lamp Plug"
+}
