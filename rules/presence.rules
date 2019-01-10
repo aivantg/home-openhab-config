@@ -2,7 +2,7 @@ rule "Aivant Arrived Home"
 when
   Item Presence_Mobile_Aivant changed from OFF to ON
 then
-  sendBroadcastNotification(Aivant Arrived At Home")
+  sendBroadcastNotification("Aivant Arrived At Home")
 end
 
 rule "Aivant Left Home"
@@ -16,7 +16,7 @@ rule "Preeti Arrived Home"
 when
   Item Presence_Mobile_Preeti changed from OFF to ON
 then
-  sendBroadcastNotification(Preeti Arrived At Home")
+  sendBroadcastNotification("Preeti Arrived At Home")
 end
 
 rule "Preeti Left Home"
