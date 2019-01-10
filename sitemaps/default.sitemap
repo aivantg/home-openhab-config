@@ -1,9 +1,20 @@
 sitemap default label="Basic Sitemap"
 {
+	Frame label="Ground Floor" icon="groundfloor" {
+		Switch item="GroundFloorLights icon="light"
+	}
+
 	Frame label="Kitchen" icon="kitchen" {
 		Group item=KitchenLightBrightness label="Individual Kitchen Lights" icon="light"
 
 		Switch item=KitchenLightSwitch icon="light"
-		Slider item=KitchenLightSwitch
+		Slider item=KitchenLightBrightness icon="light"
 	}
+
+	Frame label="Office" icon="office" {
+		Group item=OfficeLights label="Individual Office Lights" icon="light"
+		Switch item=OfficeLights icon="light"
+	}
+
+
 }

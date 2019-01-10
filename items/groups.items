@@ -1,13 +1,17 @@
 Group House
 
-Group Ground_Floor (House)
+Group GroundFloor (House)
 Group Upstairs (House)
 
-Group Kitchen (Ground_Floor)
+Group Kitchen (GroundFloor)
+Group Office (GroundFloor)
 
 Group Lights (House)
 
-Group KitchenLights (Kitchen, Lights)
+Group GroundFloorLights (GroundFloor, Lights)
+
+Group KitchenLights (Kitchen, GroundFloorLights)
+Group OfficeLights (Office, GroundFloorLights)
 
 Group:Dimmer KitchenLightBrightness "Kitchen Lights Brightness" (KitchenLights)
 Group:Switch:OR(ON,OFF) KitchenLightSwitch "Kitchen Lights" (KitchenLights)
