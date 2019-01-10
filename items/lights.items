@@ -1,4 +1,4 @@
-Switch Light_Office_Lamp "Office Lamp" <light> (OfficeLights){ channel="tplinksmarthome:hs100:5B310D:switch" } ["Lighting"]
+Switch Light_Office_Lamp "Office Lamp" <light> (OfficeLights)  ["Lighting"] { channel="tplinksmarthome:hs100:5B310D:switch" }
 
 Dimmer Light_Kitchen_One "Kitchen Light One" <light> (KitchenLightBrightness, KitchenLightSwitch) { channel="hue:0100:001788a6063d:2:brightness" }
 Dimmer Light_Kitchen_Two "Kitchen Light Two" <light> (KitchenLightBrightness, KitchenLightSwitch) { channel="hue:0100:001788a6063d:3:brightness" }
