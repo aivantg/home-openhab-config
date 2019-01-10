@@ -1,0 +1,27 @@
+rule "Aivant Arrived Home"
+when
+  Item Presence_Mobile_Aivant changed from OFF to ON
+then
+  sendBroadcastNotification(Aivant Arrived At Home")
+end
+
+rule "Aivant Left Home"
+when
+  Item Presence_Mobile_Aivant changed from ON to OFF
+then
+  sendBroadcastNotification("Aivant Left Home")
+end
+
+rule "Preeti Arrived Home"
+when
+  Item Presence_Mobile_Preeti changed from OFF to ON
+then
+  sendBroadcastNotification(Preeti Arrived At Home")
+end
+
+rule "Preeti Left Home"
+when
+  Item Presence_Mobile_Preeti changed from ON to OFF
+then
+  sendBroadcastNotification("Preeti Left Home")
+end
