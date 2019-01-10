@@ -2,8 +2,8 @@ sitemap default label="Basic Sitemap"
 {
 
 	Frame label="Who's Home?" {
-  	Text item=Presence_Mobile_Aivant icon="boy_3" label="Aivant"
-		Text item=Presence_Mobile_Preeti icon="girl_3" label="Mom"
+ 		Switch item=Presence_Mobile_Aivant icon="boy_3" label="Aivant"
+		Switch item=Presence_Mobile_Preeti icon="girl_3" label="Mom"
 	}
 
 
