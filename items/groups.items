@@ -5,13 +5,13 @@ Group Upstairs (House)
 
 Group Kitchen (GroundFloor)
 Group Office (GroundFloor)
+Group LivingRoom (GroundFloor)
 
 Group Lights (House)
 
 Group GroundFloorLights (GroundFloor, Lights)
 
+
+Group LivingRoomLights (LivingRoom, GroundFloorLights)
 Group KitchenLights (Kitchen, GroundFloorLights)
 Group OfficeLights "Office Lights" (Office, GroundFloorLights)
-
-Group:Dimmer KitchenLightBrightness "Kitchen Lights Brightness" (KitchenLights)
-Group:Switch:OR(ON,OFF) KitchenLightSwitch "Kitchen Lights" (KitchenLights)
