@@ -1,2 +1,3 @@
 Switch Presence_Mobile_Aivant "Aivant's iPhone" <network> (Devices) { channel="network:pingdevice:66a655e1:online" }
 Switch Presence_Mobile_Preeti "Preeti's Phone" <network> (Devices) { channel="network:pingdevice:265e27b1:online" }
+Switch Presence_Mobile_Anoop "Anoop's iPhone" <network> (Devices) { channel="network:pingdevice:ccd7faa4:online" }

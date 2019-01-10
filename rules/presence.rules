@@ -12,7 +12,7 @@ then
   sendBroadcastNotification("Aivant Left Home")
 end
 
-rule "Preeti Arrived Home"
+rule "Anoop Arrived Home"
 when
   Item Presence_Mobile_Preeti changed from OFF to ON
 then
@@ -24,4 +24,19 @@ when
   Item Presence_Mobile_Preeti changed from ON to OFF
 then
   sendBroadcastNotification("Preeti Left Home")
+end
+
+
+rule "Anoop Arrived Home"
+when
+  Item Presence_Mobile_Anoop changed from OFF to ON
+then
+  sendBroadcastNotification("Anoop Arrived At Home")
+end
+
+rule "Anoop Left Home"
+when
+  Item Presence_Mobile_Anoop changed from ON to OFF
+then
+  sendBroadcastNotification("Anoop Left Home")
 end
