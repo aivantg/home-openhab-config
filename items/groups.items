@@ -10,15 +10,15 @@ Group LivingRoom (GroundFloor)
 
 Group Lights (House)
 
-Group:Switch:OR(ON,OFF) GroundFloorLights (GroundFloor, Lights)
+Group:Switch:OR(ON,OFF) GroundFloorLights (GroundFloor, Lights)["Lighting"]
 
 
 Group LivingRoomLights (LivingRoom, GroundFloorLights)
 Group KitchenLights (Kitchen, GroundFloorLights)
 Group OfficeLights "Office Lights" (Office, GroundFloorLights)
 
-Group:Dimmer LivingRoomLightBrightness "Living Room Light Brightness" (LivingRoomLights)
+Group:Dimmer LivingRoomLightBrightness "Living Room Light Brightness" (LivingRoomLights) ["Lighting"]
 Group:Switch:OR(ON,OFF) LivingRoomLightSwitch "Living Room Light Switch" (LivingRoomLights) ["Lighting"]
 
-Group:Dimmer KitchenLightBrightness "Kitchen Lights Brightness" (KitchenLights)
+Group:Dimmer KitchenLightBrightness "Kitchen Lights Brightness" (KitchenLights) ["Lighting"]
 Group:Switch:OR(ON,OFF) KitchenLightSwitch "Kitchen Light Switch" (KitchenLights) ["Lighting"]
