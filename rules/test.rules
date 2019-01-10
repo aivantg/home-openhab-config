@@ -2,7 +2,7 @@ rule "Light_Kitchen_One ON"
 when
   Item Presence_Mobile_Aivant changed from OFF to ON
 then
-  Light_Kitchen_One.sendCommand(ON)
+  sendBroadcastNotification("Aivant Arrived At Home")
 end
 
 rule "Light_Kitchen_One OFF"
