@@ -1,11 +1,11 @@
-rule "KITCHEN LIGHT ON"
+rule "Light_Kitchen_One ON"
 when
   Item Presence_Mobile_Aivant changed from OFF to ON
 then
   Light_Kitchen_One.sendCommand(ON)
 end
 
-rule "KITCHEN LIGHT OFF"
+rule "Light_Kitchen_One OFF"
 when
   Item Presence_Mobile_Aivant changed from ON to OFF
 then
