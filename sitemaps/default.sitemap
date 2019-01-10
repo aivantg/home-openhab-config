@@ -13,5 +13,11 @@ sitemap default label="Basic Sitemap"
 		Switch item=OfficeLights icon="light"
 	}
 
+	Frame label="Ground Floor" icon="groundfloor" {
+		Group item=GroundFloorLights label="Individual Ground Floor Lights" icon="light"
+	}
+
+
+
 
 }

@@ -11,7 +11,7 @@ Group Lights (House)
 Group GroundFloorLights (GroundFloor, Lights)
 
 Group KitchenLights (Kitchen, GroundFloorLights)
-Group OfficeLights (Office, GroundFloorLights)
+Group OfficeLights "Office Lights" (Office, GroundFloorLights)
 
 Group:Dimmer KitchenLightBrightness "Kitchen Lights Brightness" (KitchenLights)
 Group:Switch:OR(ON,OFF) KitchenLightSwitch "Kitchen Lights" (KitchenLights)
