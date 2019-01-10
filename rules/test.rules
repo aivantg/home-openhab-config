@@ -9,5 +9,5 @@ rule "Light_Kitchen_One OFF"
 when
   Item Presence_Mobile_Aivant changed from ON to OFF
 then
-  Light_Kitchen_One.sendCommand(OFF)
+  sendBroadcastNotification("Aivant Left Home")
 end
