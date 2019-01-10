@@ -3,7 +3,15 @@ sitemap default label="Basic Sitemap"
 	Switch item=Presence_Mobile_Aivant label="Aivant's iPhone"
 	Switch item=Plug_Office_Lamp label="Office Lamp Plug"
 
-	Switch item=KitchenLightSwitch icon="light"
-  Slider item=KitchenLightBrightness
+
+}
+
+Text label="Kitchen" icon="light"
+{
 	Group item=KitchenLights label="Kitchen Lights" icon="light"
+
+	Text label="Individual Lights" icon="light" {
+		Switch item=KitchenLightSwitch icon="light"
+		Slider item=KitchenLightBrightness
+	}
 }
