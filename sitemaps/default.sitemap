@@ -4,7 +4,6 @@ sitemap default label="Basic Sitemap"
 		Group item=KitchenLightBrightness label="Individual Kitchen Lights" icon="light"
 
 		Switch item=KitchenLightSwitch icon="light"
-		Slider item=KitchenLightBrightness
-		Text item=KitchenLightCount
+		Slider item=KitchenLightSwitch
 	}
 }
