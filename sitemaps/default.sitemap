@@ -1,4 +1,4 @@
-sitemap default label="Basic Sitemap"
+sitemap default label="My Home"
 {
 
 	Frame label="Who's Home?" {
