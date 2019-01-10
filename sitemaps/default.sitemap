@@ -1,8 +1,5 @@
 sitemap default label="Basic Sitemap"
 {
-	Frame label="Ground Floor" icon="groundfloor" {
-		Switch item="GroundFloorLights" icon="light"
-	}
 
 	Frame label="Kitchen" icon="kitchen" {
 		Group item=KitchenLightBrightness label="Individual Kitchen Lights" icon="light"
