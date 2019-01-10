@@ -9,6 +9,6 @@ Group Lights (House)
 
 Group KitchenLights (Kitchen, Lights)
 
-Group:Dimmer "Kitchen Lights Brightness (KitchenLights)
-Group:Switch:OR(ON,OFF) "Kitchen Lights" (KitchenLights)
-Group:Number:SUM "Kitchen Lights Summary (KitchenLights)
+Group:Dimmer KitchenLightsBrightness "Kitchen Lights Brightness (KitchenLights)
+Group:Switch:OR(ON,OFF) KitchenLightSwitch "Kitchen Lights" (KitchenLights)
+Group:Number:SUM KitchenLightCount "Kitchen Lights Summary (KitchenLights)
