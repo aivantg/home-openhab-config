@@ -4,5 +4,7 @@ sitemap default label="Basic Sitemap"
 	Switch item=Plug_Office_Lamp label="Office Lamp Plug"
 
 	Switch item=KitchenLightSwitch icon="light"
+	Dimmer item=KitchenLightBrightness
+	Number item=KitchenLightCount
 	Group item=KitchenLights label="Kitchen Lights" icon="light"
 }
