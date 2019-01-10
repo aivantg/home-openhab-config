@@ -2,7 +2,7 @@ sitemap default label="Basic Sitemap"
 {
 
 	Frame label="Kitchen" icon="kitchen" {
-		Group item=KitchenLightBrightness label="Individual Kitchen Lights" icon="light"
+		Group item=KitchenLights label="Individual Kitchen Lights" icon="light"
 
 		Switch item=KitchenLights icon="light"
 		Slider item=KitchenLights icon="light"
