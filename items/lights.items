@@ -1,6 +1,6 @@
 Switch Plug_Office_Lamp "Office Lamp Plug" <poweroutlet> { channel="tplinksmarthome:hs100:5B310D:switch" }
 
-Switch Light_Kitchen_One "Kitchen Light One" <light> (KitchenLightBrightness, KitchenLightCount, KitchenLightSwitch) { channel="hue:0100:001788a6063d:2:brightness" }
-Switch Light_Kitchen_Two "Kitchen Light Two" <light> (KitchenLightBrightness, KitchenLightCount, KitchenLightSwitch) { channel="hue:0100:001788a6063d:3:brightness" }
-Switch Light_Kitchen_Three "Kitchen Light Three" <light> (KitchenLightBrightness, KitchenLightCount, KitchenLightSwitch) { channel="hue:0100:001788a6063d:1:brightness" }
-Switch Light_Kitchen_Four "Kitchen Light Four" <light> (KitchenLightBrightness, KitchenLightCount, KitchenLightSwitch) { channel="hue:0100:001788a6063d:4:brightness" }
+Slider Light_Kitchen_One "Kitchen Light One" <light> (KitchenLightBrightness, KitchenLightCount, KitchenLightSwitch) { channel="hue:0100:001788a6063d:2:brightness" }
+Slider Light_Kitchen_Two "Kitchen Light Two" <light> (KitchenLightBrightness, KitchenLightCount, KitchenLightSwitch) { channel="hue:0100:001788a6063d:3:brightness" }
+Slider Light_Kitchen_Three "Kitchen Light Three" <light> (KitchenLightBrightness, KitchenLightCount, KitchenLightSwitch) { channel="hue:0100:001788a6063d:1:brightness" }
+Slider Light_Kitchen_Four "Kitchen Light Four" <light> (KitchenLightBrightness, KitchenLightCount, KitchenLightSwitch) { channel="hue:0100:001788a6063d:4:brightness" }
