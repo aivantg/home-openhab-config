@@ -1,0 +1,13 @@
+rule "KITCHEN LIGHT ON"
+when
+  Item Presence_Mobile_Aivant changed from OFF to ON
+then
+  Light_Kitchen_One.sendCommand(ON)
+end
+
+rule "KITCHEN LIGHT OFF"
+when
+  Item Presence_Mobile_Aivant changed from ON to OFF
+then
+  Light_Kitchen_One.sendCommand(OFF)
+end
