@@ -10,7 +10,7 @@ Group LivingRoom (GroundFloor)
 
 Group Lights (House)
 
-Group:Switch:OR(ON,OFF) GroundFloorLights (GroundFloor, Lights)["Lighting"]
+Group:Switch:OR(ON,OFF) GroundFloorLights (GroundFloor, Lights)
 
 
 Group LivingRoomLights (LivingRoom, GroundFloorLights)
