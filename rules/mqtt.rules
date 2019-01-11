@@ -1,0 +1,13 @@
+rule "ButtonPressed"
+when
+  Item MQTT_Button changed from OFF to ON
+then
+  KitchenLightSwitch.sendCommand("ON")
+end
+
+rule "ButtonUnpressed"
+when
+  Item MQTT_Button changed from ON to OFF
+then
+  KitchenLightSwitch.sendCommand("ON")
+end
