@@ -8,7 +8,7 @@ sitemap default label="My Home"
 	}
 
 	Frame label="MQTT Devices" {
-		Text item=MQTT_Button icon="plug" label="MQTT Button [%s]"
+		Switch item=MQTT_Button icon="plug" label="MQTT Button [%s]"
 		Switch item=MQTT_LED icon="light"
 	}
 
