@@ -7,6 +7,13 @@ sitemap default label="My Home"
 		Text item=Presence_Mobile_Aivant icon="boy_3" label="Aivant [MAP(presence.map):%s]"
 	}
 
+	Frame label="MQTT Devices" {
+		Text item=MQTT_Button icon="plug" label="MQTT Button" [%s]
+		Switch item=MQTT_LED icon="light" 
+	}
+
+
+
 
 	Frame label="Kitchen" {
 

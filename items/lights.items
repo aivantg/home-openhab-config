@@ -7,3 +7,6 @@ Dimmer Light_Kitchen_Four "Kitchen Light Four" <light> (KitchenLightBrightness, 
 
 Dimmer Light_LivingRoom_One "Living Room Light One" <light> (LivingRoomLightBrightness, LivingRoomLightSwitch) { channel="hue:0100:001788a6063d:5:brightness" }
 Dimmer Light_LivingRoom_Two "Living Room Light Two" <light> (LivingRoomLightBrightness, LivingRoomLightSwitch) { channel="hue:0100:001788a6063d:6:brightness" }
+
+Switch MQTT_LED "Mqtt LED" <light> { channel="mqtt:topic:87541628:mqttlight" }
+Switch MQTT_Button "Mqtt Button" <plug> { channel="mqtt:topic:87541628:buttonPressed" }
