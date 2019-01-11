@@ -2,12 +2,12 @@ rule "ButtonPressed"
 when
   Item MQTT_Button changed from OFF to ON
 then
-  KitchenLights.members.forEach[ i | sendCommand(i, "ON") ]
+  OfficeLights.members.forEach[ i | sendCommand(i, "ON") ]
 end
 
 rule "ButtonUnpressed"
 when
   Item MQTT_Button changed from ON to OFF
 then
-  KitchenLights.members.forEach[ i | sendCommand(i, "OFF") ]
+  OfficeLights.members.forEach[ i | sendCommand(i, "OFF") ]
 end
