@@ -29,14 +29,14 @@ end
 
 rule "Anoop Arrived Home"
 when
-  Item Presence_Mobile_Anoop changed from OFF to ON
+  Item Prsesence_Mobile_Anoop changed from OFF to ON
 then
   sendBroadcastNotification("Anoop Arrived At Home")
 end
 
 rule "Anoop Left Home"
 when
-  Item Presence_Mobile_Anoop changed from ON to OFF
+  Item Pressence_Mobile_Anoop changed from ON to OFF
 then
   sendBroadcastNotification("Anoop Left Home")
 end
